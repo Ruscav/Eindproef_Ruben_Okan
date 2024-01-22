@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CarouselComponent } from '../carousel/carousel.component';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -10,5 +11,12 @@ import { CarouselComponent } from '../carousel/carousel.component';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+  constructor(private router: Router) {}
 
-}
+  buyNow() {
+     this.router.navigateByUrl('/buynow');
+    } 
+    }
+  
+
+

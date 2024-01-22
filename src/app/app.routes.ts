@@ -8,6 +8,7 @@ import { SerieaComponent } from './seriea/seriea.component';
 import { Euro2024Component } from './euro2024/euro2024.component';
 import { ShoppingcartComponent } from './shoppingcart/shoppingcart.component';
 import { FavoriteComponent } from './favorite/favorite.component';
+import { BuynowComponent } from './buynow/buynow.component';
 
 
 
@@ -54,6 +55,10 @@ export const routes: Routes = [
         {
         path: 'favorite',
         component: FavoriteComponent
+        },
+        {
+        path: 'buynow',
+        component: BuynowComponent
         }
 
     
